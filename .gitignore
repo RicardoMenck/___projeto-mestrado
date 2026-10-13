@@ -1,0 +1,22 @@
+# Credenciais e configuração local
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python
+**/.venv/
+**/__pycache__/
+**/*.py[cod]
+
+# Java
+**/*.class
+
+# Resultados gerados pela PoC; evidências validadas são liberadas explicitamente
+poc-code-smell-feedback/resultados/*
+!poc-code-smell-feedback/resultados/aluno1_switch_statement_resultado.json
+
+# Editores e sistema operacional
+**/.idea/
+**/.vscode/
+**/.DS_Store
+**/Thumbs.db
